@@ -1,6 +1,6 @@
 import java.util.*;
 
-// 1️⃣ Username Availability Checker
+// 1️ Username Availability Checker
 class UsernameChecker {
 
     private HashMap<String, Integer> users = new HashMap<>();
@@ -37,7 +37,7 @@ class UsernameChecker {
     }
 }
 
-// 2️⃣ Flash Sale Inventory Manager
+// 2️ Flash Sale Inventory Manager
 class InventoryManager {
 
     private HashMap<String, Integer> stock = new HashMap<>();
@@ -65,7 +65,7 @@ class InventoryManager {
     }
 }
 
-// 3️⃣ DNS Cache with TTL
+// 3️ DNS Cache with TTL
 class DNSCache {
 
     class Entry {
@@ -98,7 +98,7 @@ class DNSCache {
     }
 }
 
-// 4️⃣ Plagiarism Detection System
+// 4️ Plagiarism Detection System
 class PlagiarismDetector {
 
     HashMap<String, Set<String>> ngramIndex = new HashMap<>();
@@ -133,7 +133,7 @@ class PlagiarismDetector {
     }
 }
 
-// 5️⃣ Real-Time Website Analytics
+// 5️ Real-Time Website Analytics
 class AnalyticsDashboard {
 
     HashMap<String, Integer> pageViews = new HashMap<>();
@@ -157,7 +157,7 @@ class AnalyticsDashboard {
     }
 }
 
-// 6️⃣ API Rate Limiter
+// 6️ API Rate Limiter
 class RateLimiter {
 
     class Bucket {
@@ -185,7 +185,7 @@ class RateLimiter {
     }
 }
 
-// 7️⃣ Search Autocomplete
+// 7️ Search Autocomplete
 class AutocompleteSystem {
 
     HashMap<String, Integer> queries = new HashMap<>();
@@ -207,7 +207,7 @@ class AutocompleteSystem {
     }
 }
 
-// 8️⃣ Parking Lot
+// 8️ Parking Lot
 class ParkingLot {
 
     String[] spots = new String[500];
@@ -240,7 +240,7 @@ class ParkingLot {
     }
 }
 
-// 9️⃣ Two-Sum Fraud Detection
+// 9️ Two-Sum Fraud Detection
 class TwoSumDetector {
 
     public void findTwoSum(int[] nums, int target) {
@@ -259,7 +259,7 @@ class TwoSumDetector {
     }
 }
 
-// 🔟 Multi-Level Cache
+// 10 Multi-Level Cache
 class MultiLevelCache {
 
     LinkedHashMap<String, String> L1 = new LinkedHashMap<>();
